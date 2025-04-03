@@ -5,9 +5,9 @@ document.addEventListener("DOMContentLoaded", () => {
     canvas.height = window.innerHeight;
 
     const snowflakes = [];
-    const numSnowflakes = 500;
+    const numSnowflakes = 800;
     let gravity = 0.02;
-    const windStrength = 0.2;
+    const windStrength = 0.4;
     const mouse = { x: 0, y: 0, isPressed: false, lastX: 0, velocityX: 0 };
 
     class Snowflake {

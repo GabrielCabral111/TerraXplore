@@ -266,7 +266,7 @@ body {
     justify-content: center;
     align-items: center;
     padding: 40px 20px;
-    height: 500px;
+    height: 811px;
   }
   
   #secao3d .container {
@@ -503,12 +503,17 @@ body {
         min-width: 400px;
     }
   }
+  @media (max-width: 768px) {
+    #secao3d {
+      height: 800px;
+    
+    }}
   
   @media (max-width: 768px) {
     #secao3d .container {
-        flex-direction: column;
-        align-items: center;
+    
     }
+    
   
     #secao3d .coluna-texto {
         min-width: 100%;

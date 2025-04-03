@@ -136,7 +136,7 @@
 /* Media Queries */
 @media (width > 650px) and (width < 900px) {
   .content, .content2 {
-    width: min(35vw, 400px);
+    width: min(43vw, 220px);
   }
   .content .title, .content2 .title { font-size: 1.3rem; }
   .content .description, .content2 .description { font-size: 0.9rem; }
@@ -152,7 +152,7 @@
 
 @media (width < 650px) {
   .content, .content2 {
-    width: min(30vw, 350px);
+    width: min(43vw, 220px);
     left: 1.5rem; /* Reduzi a margem à esquerda para caber melhor */
   }
   .content .title, .content2 .title { font-size: 1.1rem; }
